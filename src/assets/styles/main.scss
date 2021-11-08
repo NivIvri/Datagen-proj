@@ -1,0 +1,21 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/links";
+
+// Components
+@import "components/root";
+@import "components/product-list.scss";
+@import "components/add-product.scss";
+
+// Views
+@import "views/home";
+@import "views/product-preview.scss";
+@import "views/product-details.scss";
+

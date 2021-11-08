@@ -1,0 +1,19 @@
+.main-container {
+    width: calc(100vw - 60vw);
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: rgb(255, 255, 255);
+    //@include for-narrow-layout {
+    //    width: calc(100vw - 40px);
+    //}
+    //@include for-normal-layout {
+    //    width: calc(100vw - 200px);
+    //}
+    @include for-mobile-layout {
+        width: calc(100vw - 20px);
+    }
+    //@include for-wide-layout {
+    //    width: calc(100vw - 70vw);
+    //}
+ 
+}

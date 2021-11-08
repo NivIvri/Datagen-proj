@@ -1,0 +1,22 @@
+.home {
+    position: relative;
+    h1 {
+        color: #696565;
+        text-align: center;
+    }
+    .add-product {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        color: orange;
+        :first-child {
+            font-size: 36px;
+            font-weight: 900;
+            padding: 5.2px 34.3px;
+        }
+        :nth-child(2) {
+            margin-left: 10px;
+            font-size: 24px;
+        }
+    }
+}
