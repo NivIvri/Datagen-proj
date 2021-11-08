@@ -21,7 +21,7 @@
 <script>
 import productPreview from "@/components/product-preview";
 export default {
-  name: "productList",
+  name: "product-list",
   props: {
     products: Array,
   },

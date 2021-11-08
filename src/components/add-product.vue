@@ -31,7 +31,7 @@
 import { DbService } from "@/service/db-service";
 
 export default {
-  name: "AddProduct",
+  name: "add-product",
   data() {
     return {
       prodact: {

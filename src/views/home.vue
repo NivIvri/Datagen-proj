@@ -21,7 +21,7 @@ import addProduct from "@/components/add-product";
 import AddProduct from "../components/add-product.vue";
 
 export default {
-  name: "Home",
+  name: "home",
 
   data() {
     return {

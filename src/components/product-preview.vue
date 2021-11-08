@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "ProductPreview",
+  name: "Product-preview",
   props: {
     product: Object,
     idx: Number,

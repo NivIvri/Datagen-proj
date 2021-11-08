@@ -12,7 +12,7 @@
 import { DbService } from "@/service/db-service";
 
 export default {
-  name: "productDetails",
+  name: "product-details",
 
   data() {
     return {
